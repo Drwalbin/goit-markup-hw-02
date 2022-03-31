@@ -56,7 +56,7 @@ body {
   height: 16px;
   top: 32px;
 }
-
+.menu-text-agencja,
 .menu-text-kontakt,
 .menu-text-portfolio {
   color: #212121;
@@ -75,8 +75,8 @@ body {
 }
 
 .menu-text-phone,
-.menu-text-email,
-.menu-text-agencja {
+.menu-text-email 
+ {
   color: #2196f3;
 }
 
@@ -334,7 +334,7 @@ body {
 }
 
 .main-footer-adress-text {
-  position: absolute;
+ 
   width: 246px;
   height: 21px;
   left: 215px;
@@ -342,13 +342,20 @@ body {
 
   color: #ffffff;
 }
-.main-footer-email-text,
-.main-footer-phone-text {
-  position: absolute;
+.main-footer-email-text {
+  
   width: 231px;
   height: 21px;
   left: 215px;
   top: 2238px;
+    color: rgba(255, 255, 255, 0.6);
+}
+.main-footer-phone-text {
+
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2268px;
 
   color: rgba(255, 255, 255, 0.6);
 }
@@ -503,17 +510,18 @@ body {
 /* Portfolio Footer */
 
 .portfolio-footer {
-  position: absolute;
-  width: 1600px;
-  height: 252px;
-  left: 0px;
-  top: 1628px;
 
-  background: #2f303a;
+position: absolute;
+width: 1600px;
+height: 252px;
+left: 0px;
+top: 1628px;
+
+background: #2F303A;
 }
 
 .portfolio-footer-webstudio-text {
-  position: absolute;
+ 
   width: 145px;
   height: 31px;
   left: 215px;
@@ -529,7 +537,7 @@ body {
   color: #2196f3;
 }
 .portfolio-footer-adress-text {
-  position: absolute;
+  
   width: 247px;
   height: 21px;
   left: 215px;
@@ -543,6 +551,38 @@ body {
 
   color: #ffffff;
 }
+
+.portfolio-footer-email-text {
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2238px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);}
+
+.portfolio-footer-phone-text {
+width: 231px;
+height: 21px;
+left: 215px;
+top: 2268px;
+
+font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+
+color: rgba(255, 255, 255, 0.6);}
+
 ul {
   list-style-type: none;
 }
@@ -556,5 +596,6 @@ a:hover,
 .portfolio-button-4:hover,
 .portfolio-button-5:hover,
 .title-button:hover {
-  color: red;
+  color:#2196f3;
+  
 }
