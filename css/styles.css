@@ -1,8 +1,12 @@
-body {
-  font-family: "Raleway", sans-serif;
-  font-family: "Roboto", sans-serif;
+:root {
+  --main-font: "Roboto", sans-serif;
+  --secondary-font: "Raleway", sans-serif;
+  --main-color: #212121;
+}
 
-  color: #212121;
+body {
+  font-family: var(--main-font);
+  color: var(--main-color);
   background: #ffffff;
 }
 
@@ -11,19 +15,22 @@ body {
 .menu-logo-webstudio {
   font-size: 26px;
   line-height: 75%;
-  color: #212121;
+  color: var(--main-color);
 }
+
 .menu-section-links-a,
 .menu-social-links-a {
   font-size: 14px;
   font-weight: 500;
   line-height: 146%;
 }
+
 .menu-social-links-a {
   color: #757575;
 }
+
 .menu-section-links-a {
-  color: #212121;
+  color: var(--main-color);
 }
 
 .menu-logo-webstudio:hover,
@@ -34,24 +41,27 @@ body {
 
 .button {
   cursor: pointer;
-  color: #212121;
+  color: var(--main-color);
 }
 
 .button:hover {
   color: white;
   background-color: #2196f3;
 }
+
 /* MAIN NAGŁOWEK STRONY */
 
 .title-section {
   background: #2f303a;
 }
+
 .main-title {
   font-size: 44px;
   font-weight: 900;
   line-height: 136%;
   color: white;
 }
+
 .main-button-text {
   font-size: 16px;
   line-height: 188%;
@@ -63,6 +73,7 @@ body {
   font-size: 36px;
   line-height: 162%;
 }
+
 .our-strengths-box-title,
 .our-strengths-box-text {
   font-size: 14px;
@@ -82,15 +93,18 @@ body {
 .our-team-section {
   background: #f5f4fa;
 }
+
 .our-team-title {
   font-size: 36px;
   line-height: 272%;
 }
+
 .our-team-box-title {
   font-size: 16px;
   font-weight: 500;
   line-height: 368%;
 }
+
 .our-team-box-text {
   font-size: 14px;
   line-height: 368%;
@@ -104,17 +118,19 @@ body {
 }
 
 .footer-logo-webstudio {
-  font-family: "Raleway";
+  font-family: var(--secondary-font);
   font-style: normal;
   font-size: 26px;
   line-height: 252%;
   color: #2196f3;
 }
+
 .footer-social-links-a,
 .footer-addres {
   font-size: 14px;
   line-height: 171%;
 }
+
 .footer-addres {
   color: #ffffff;
 }
@@ -138,8 +154,9 @@ body {
   font-weight: 500;
   font-size: 16px;
   line-height: 162%;
-  color: #212121;
+  color: var(--main-color);
 }
+
 .portfolio-button-text:hover {
   color: white;
 }
@@ -148,6 +165,7 @@ body {
   font-size: 18px;
   line-height: 200%;
 }
+
 .porfolio-box-text {
   font-size: 16px;
   line-height: 188%;
