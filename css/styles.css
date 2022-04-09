@@ -3,7 +3,7 @@
   --secondary-font: "Raleway", sans-serif;
   --main-color: #212121;
   --secondary-color: #757575;
-  --third-color:white;
+  --third-color: white;
   --brand-color: #2196f3;
   --main-background-color: #ffffff;
   --brand-background-color: #2f303a;
@@ -13,7 +13,7 @@
 body {
   font-family: var(--main-font);
   color: var(--main-color);
-  background: var(--main-background-color)
+  background: var(--main-background-color);
 }
 /* --------------------Kolory czcionek------------------ */
 
@@ -37,13 +37,13 @@ body {
 
 .main-title,
 .footer-addres {
-  color: var(--third-color)
+  color: var(--third-color);
 }
 
 .button:hover,
 .footer-logo-webstudio:hover,
 .portfolio-button-text:hover {
-  color: var(--third-color)
+  color: var(--third-color);
 }
 
 .menu-logo-webstudio:hover,
@@ -51,22 +51,22 @@ body {
 .menu-social-links-a:hover,
 .footer-addres:hover,
 .footer-social-links-a:hover {
-  color:  var(--brand-color);
+  color: var(--brand-color);
 }
 
 /* --------------------KOLOR TŁA-------------- */
 
 .title-section,
 .footer-section {
-  background: var(--brand-background-color)
+  background: var(--brand-background-color);
 }
 
 .button:hover {
-  background:  var(--brand-color);
+  background: var(--brand-color);
 }
 
 .our-team-section {
-  background: var(--brand-background-2-color)
+  background: var(--brand-background-2-color);
 }
 /*-------------------- ROZMIARY CZCIONEK------------------- */
 
